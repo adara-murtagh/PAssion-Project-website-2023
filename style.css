@@ -2,9 +2,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: raleway;
+    src: url(fonts/Raleway-Regular.ttf);
+}
+
 html, body {
     padding: 0;
     margin: 0;
+    font-family: raleway, sans-serif;
 }
 
 .titlebar {
@@ -30,6 +36,33 @@ html, body {
     font-size: 55px;
     color: chartreuse;
 }
+
+.homebody {
+    padding: 50px;
+}
+
+.homebody > a {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(59, 5, 158);
+    text-decoration:none;
+}
+
+.titleandsubtitle {
+    color:black;
+    margin-left: 20px;
+}
+
+.titleandsubtitle h4 {
+    font-size:xxx-large
+}
+
+.titleandsubtitle h4 {
+    font-size:xx-large
+}
+
 
 .review {
     flex: 100%;
