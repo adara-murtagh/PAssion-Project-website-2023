@@ -29,5 +29,5 @@ html, body {
 .review {
     flex: 100%;
     padding: 135px;
-    text-align: center;
+    text-align: left;
 }
