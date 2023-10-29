@@ -29,12 +29,12 @@ html, body {
 
 .header h1 {
     font-size: 70px;
-    color: rgb(16, 199, 168);
+    color: rgb(255, 255, 255);
 }
 
 .header h2 {
     font-size: 55px;
-    color: chartreuse;
+    color:rgb(168, 253, 253);
 }
 
 .homebody {
