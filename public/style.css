@@ -14,6 +14,11 @@ html, body {
     box-sizing: border-box;
 }
 
+a {
+    color: rgb(59, 5, 158);
+    text-decoration: none;
+}
+
 .titlebar {
     background-color: black;
     text-align: center;
@@ -122,6 +127,14 @@ html, body {
     max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.review .back {
+    display:inline-block;
+    background-color: rgb(59, 5, 158);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 @media (max-width: 767px) {
