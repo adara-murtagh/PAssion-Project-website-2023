@@ -34,11 +34,15 @@ html, body {
 .header h1 {
     font-size: 70px;
     color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.45);
+    padding: 20px 10px;
 }
 
 .header h2 {
     font-size: 55px;
     color:rgb(168, 253, 253);
+    background-color: rgba(0,0,0,0.45);
+    padding: 20px 10px;
 }
 
 .homebody {
@@ -89,6 +93,37 @@ html, body {
     text-align: left;
 }
 
+.review p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.review h4 {
+    margin-bottom: 0;
+}
+
+.review ul {
+    max-width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.review ul li {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.review ul li a {
+    display: block;
+    text-overflow:ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 @media (max-width: 767px) {
     .homebody {
         padding: 10px;
@@ -123,6 +158,19 @@ html, body {
     }
 
     .header {
-        background-size: contain;
+        padding: 40px 20px;
     }
+
+    .header h1 {
+        font-size: 40px;
+    }
+    
+    .header h2 {
+        font-size: 30px;
+    }
+
+    .review {
+        padding: 40px;
+    }
+
 }
