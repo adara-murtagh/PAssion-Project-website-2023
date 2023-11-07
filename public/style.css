@@ -94,14 +94,24 @@ a {
 
 .review {
     flex: 100%;
-    padding: 135px;
+    padding: 35px;
     text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .review p {
     margin-bottom: 40px;
     font-size: 18px;
     line-height: 24px;
+}
+
+.review p img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .review h4 {
