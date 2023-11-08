@@ -147,6 +147,21 @@ a {
     border-radius: 10px;
 }
 
+footer {
+    background-color: #dfd9d9;
+    padding: 40px 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+footer .footerlinks a {
+    display:block;
+}
+
+footer .footerlinks {
+    padding-top: 20px;
+}
+
 @media (max-width: 767px) {
     .homebody {
         padding: 10px;
@@ -194,6 +209,10 @@ a {
 
     .review {
         padding: 40px;
+    }
+
+    footer {
+        font-size: 17px;
     }
 
 }
